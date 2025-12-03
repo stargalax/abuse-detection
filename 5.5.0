@@ -1,0 +1,21 @@
+Requirement already satisfied: altair in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (5.4.1)
+Collecting altair
+  Downloading altair-6.0.0-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: jinja2 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from altair) (3.1.4)
+Requirement already satisfied: jsonschema>=3.0 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from altair) (4.23.0)
+Requirement already satisfied: narwhals>=1.27.1 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from altair) (1.46.0)
+Requirement already satisfied: packaging in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from altair) (24.1)
+Requirement already satisfied: typing-extensions>=4.12.0 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from altair) (4.12.2)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from jsonschema>=3.0->altair) (24.2.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from jsonschema>=3.0->altair) (2024.10.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from jsonschema>=3.0->altair) (0.35.1)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from jsonschema>=3.0->altair) (0.20.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\hakre\appdata\local\programs\python\python310\lib\site-packages (from jinja2->altair) (2.1.5)
+Downloading altair-6.0.0-py3-none-any.whl (795 kB)
+   ---------------------------------------- 795.4/795.4 kB 6.8 MB/s eta 0:00:00
+Installing collected packages: altair
+  Attempting uninstall: altair
+    Found existing installation: altair 5.4.1
+    Uninstalling altair-5.4.1:
+      Successfully uninstalled altair-5.4.1
+Successfully installed altair-6.0.0
